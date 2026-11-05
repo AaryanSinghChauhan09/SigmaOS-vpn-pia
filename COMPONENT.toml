@@ -1,0 +1,6 @@
+[component]
+name = "SigmaOS-vpn-pia"
+tier = 3
+description = "VPN wireguard and OpenVPN connection manager inspired by PIA manager"
+contracts = ['vpn-pia-manager', 'wireguard-controller', 'killswitch-enforcer']
+upstream_inspirations = ['https://github.com/linuxmint/pia-manager']
