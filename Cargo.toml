@@ -2,5 +2,9 @@
 name = "sigmaos_vpn_pia"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "SigmaOS vpn-pia component inspired by Linux Mint / Omarchy / Arch Linux."
 
-[dependencies]
+[lib]
+name = "sigmaos_vpn_pia"
+path = "src/lib.rs"
